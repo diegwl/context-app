@@ -1,0 +1,22 @@
+.container-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    flex-direction: column;
+}
+
+.container-home article {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.btn-counter {
+    width: 50px;
+    height: 50px;
+}
+
+.btn-color {
+    width: 100px;
+}

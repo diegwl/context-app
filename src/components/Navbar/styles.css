@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    margin: 0 18px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+.active {
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100px;
+}
